@@ -1,0 +1,213 @@
+/*import fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster+Two:wght@400;700&family=Open+Sans&family=Rubik:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+html,body{
+    margin: 0;
+    background: rgb(228, 246, 248);
+    overflow: hidden;
+}
+
+.container{
+    margin-top: -70px;
+}
+
+.container2{
+    background: url('../assets/Welcome7.jpg');
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    height: 510px;
+    margin-top: -58px;
+    color: black;
+    text-align: center;
+}
+
+.container2 .welcome-line{
+    position: relative;
+    top: -10%;
+    font-family: 'Lobster Two', cursive;
+    font-size: 250%;
+    font-weight: 900;
+    color: rgb(240,255,240);
+    padding-top: 7rem;
+    padding-bottom: 1px;
+}
+
+.wrapper{
+    position: relative;
+    left: 33%;
+    top: -15%;
+    display: flex;
+    min-width: 100px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.plus-icon{
+    position: absolute;
+    top: 8px;
+    right: 65.8%;
+    width: 30px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.search{
+    border: 1px sold grey;
+    border-width: 1.5px;
+    border-radius: 90px;
+    height: 40px;
+    width: 30%;
+    padding: 2px 43px 2px 42px;
+    outline: 0;
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.search:hover, .search:focus{
+    border: 2.5px solid lightskyblue;
+    background-color: white;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 10% 89%;
+    margin-top: 0.2rem;
+    margin-left: -0.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar .nav-items{
+    text-align: right;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.navbar .recipe{
+    font-family: 'Cookie', cursive;
+    font-size: 4rem;
+    margin: -20px;
+    margin-bottom: -23px;
+    margin-left: 20px;
+}
+
+.nav-items .navbar-nav{
+    list-style-type: none;
+}
+
+.navbar-nav .nav-link{
+    display: inline-block;
+    font-size: 1.15rem;
+    margin-top: 50px;
+    margin-inline: 11px;
+}
+
+.navbar-nav .sign-in{
+    border: none;
+    padding: .4rem 2rem;
+    border-radius: 1rem;
+    margin-right: 5px;
+    font-size: 1rem;
+    background-color: #ff8c00;
+    font-family: 'Rubik', sans-serif;
+}
+
+.list{
+    position: relative;
+    top: -15%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    color: black;
+}
+
+table{
+    table-layout: fixed;
+    position: relative;
+    top: -17%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border-collapse: collapse;
+    background-color: wheat;
+    width: 30%;
+}
+
+td, th{
+    width: 100px;
+    height: 18px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.recipes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    width: 390px;
+    height: 340px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 0;  
+    background-color: wheat;
+}
+.box2{
+    width: 390px;
+    height: 340px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 0;  
+    background-color: wheat;
+}
+.box3{
+    width: 390px;
+    height: 340px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 0;  
+    background-color: wheat;
+}
+
+.header{
+    top: -1px;
+    border: 0;
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.recipeInfo{
+    margin: 0 0;
+    padding: 0;
+    font-weight: bold;
+    line-height: 24px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    margin-top: 0px;
+}
+
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
